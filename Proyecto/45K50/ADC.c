@@ -11,7 +11,7 @@ Driver Version    :  1.0
 ********************************************************************************/
 
 /*******************************************************************************
-Para usar el cï¿½digo con bootloader, configurar como lo indica MICROSIDE:
+Para usar el código con bootloader, configurar como lo indica MICROSIDE:
 1) Tools> Options> Output> Output Settings> Marcar "Long HEX format"
 2) Project> Edit Project> Insertar 48.000000 en "MCU Clock Frequency [MHz]" box
 ********************************************************************************/
@@ -23,7 +23,7 @@ unsigned int ValorPot;
 void main() org 0x2000                     //vector de inicio usando bootloader MICROSIDE
 {
     TRISA0_bit = 1;                        //PIN como entrada
-    ANSA0_bit = 1;                         //PIN como analï¿½gico
+    ANSA0_bit = 1;                         //PIN como analógico
     TRISB = 0;
     ANSELB = 0;
     
